@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+website/node_modules/
+
+# Build outputs (built on demand by npm run build)
+website/dist/
+
+# Raw unorganized duplicates (superseded by canonical data/normalized/ and website/public/documents/)
+NEET UG 2026/
+data/raw/
+
+# Scratch, temporary test caches & audit reports
+scratch/
+.tmp/
+*.log
+data/reports/lighthouse-*.json
+.tempmediaStorage/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

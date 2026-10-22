@@ -1,0 +1,32 @@
+{
+  "name": "canonify",
+  "version": "1.0.0",
+  "description": "Canonify — NEET Counselling Files Directory across MCC and 36 States/UTs.",
+  "type": "module",
+  "scripts": {
+    "classify": "node scripts/classify-files.mjs",
+    "normalize": "node scripts/normalize-filenames.mjs",
+    "convert": "node scripts/convert-to-pdf.mjs",
+    "catalog": "node scripts/generate-catalog.mjs",
+    "validate": "node scripts/validate-links.mjs",
+    "build:web": "npm --prefix website run build",
+    "dev:web": "npm --prefix website run dev",
+    "pipeline": "node scripts/classify-files.mjs && node scripts/normalize-filenames.mjs && node scripts/convert-to-pdf.mjs && node scripts/generate-catalog.mjs && npm --prefix website run build && node scripts/validate-links.mjs"
+  },
+  "keywords": [
+    "canonify",
+    "neet-ug",
+    "counselling",
+    "allotment",
+    "seat-matrix",
+    "merit-list",
+    "mcc",
+    "medical-admissions",
+    "india"
+  ],
+  "author": "Deekshith Vodela",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

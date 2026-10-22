@@ -1,0 +1,1098 @@
+[
+  {
+    "slug": "all-india",
+    "name": "All India Quota",
+    "canonical": "AllIndia",
+    "type": "All India",
+    "authorityName": "Medical Counselling Committee (MCC)",
+    "officialWebsiteUrl": "https://mcc.nic.in/ug-medical-counselling/",
+    "allOfficialLinks": [
+      "https://mcc.nic.in/ug-medical-counselling/"
+    ],
+    "authorities": [
+      {
+        "name": "Medical Counselling Committee (MCC)",
+        "url": "https://mcc.nic.in/ug-medical-counselling/"
+      }
+    ],
+    "documentCount": 5,
+    "totalSizeBytes": 25161389,
+    "availableCategories": [
+      "Allotment",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3",
+      "StrayVacancy"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "canonical": "AndhraPradesh",
+    "type": "State",
+    "authorityName": "Dr. N.T.R UNIVERSITY OF HEALTH SCIENCES",
+    "officialWebsiteUrl": "https://drntr.uhsap.in/index/notification_admission",
+    "allOfficialLinks": [
+      "https://drntr.uhsap.in/index/notification_admission"
+    ],
+    "authorities": [
+      {
+        "name": "Dr. N.T.R UNIVERSITY OF HEALTH SCIENCES",
+        "url": "https://drntr.uhsap.in/index/notification_admission"
+      }
+    ],
+    "documentCount": 12,
+    "totalSizeBytes": 5009530,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "canonical": "ArunachalPradesh",
+    "type": "State",
+    "authorityName": "DIRECTORATE OF HIGHER & TECHNICAL EDUCATION",
+    "officialWebsiteUrl": "https://apjee.co.in/",
+    "allOfficialLinks": [
+      "https://apjee.co.in/"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTORATE OF HIGHER & TECHNICAL EDUCATION",
+        "url": "https://apjee.co.in/"
+      }
+    ],
+    "documentCount": 4,
+    "totalSizeBytes": 3073536,
+    "availableCategories": [
+      "Allotment"
+    ],
+    "roundsAvailable": [
+      "MopUp",
+      "Round1",
+      "Round2",
+      "SpotCounselling"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "assam",
+    "name": "Assam",
+    "canonical": "Assam",
+    "type": "State",
+    "authorityName": "DIRECTOR OF MEDICAL EDUCATION, ASSAM",
+    "officialWebsiteUrl": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew",
+    "allOfficialLinks": [
+      "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTOR OF MEDICAL EDUCATION, ASSAM",
+        "url": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew"
+      }
+    ],
+    "documentCount": 3,
+    "totalSizeBytes": 7023521,
+    "availableCategories": [
+      "Allotment"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "bihar",
+    "name": "Bihar",
+    "canonical": "Bihar",
+    "type": "State",
+    "authorityName": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+    "officialWebsiteUrl": "https://bceceboard.bihar.gov.in/",
+    "allOfficialLinks": [
+      "https://bceceboard.bihar.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+        "url": "https://bceceboard.bihar.gov.in/"
+      }
+    ],
+    "documentCount": 3,
+    "totalSizeBytes": 3465156,
+    "availableCategories": [
+      "Allotment",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "canonical": "Chhattisgarh",
+    "type": "State",
+    "authorityName": "DIRECTORATE OF MEDICAL EDUCATION, CHHATTISGARH",
+    "officialWebsiteUrl": "https://cgdme.admissions.nic.in/",
+    "allOfficialLinks": [
+      "https://cgdme.admissions.nic.in/"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTORATE OF MEDICAL EDUCATION, CHHATTISGARH",
+        "url": "https://cgdme.admissions.nic.in/"
+      }
+    ],
+    "documentCount": 4,
+    "totalSizeBytes": 9019477,
+    "availableCategories": [
+      "Allotment",
+      "Analysis"
+    ],
+    "roundsAvailable": [
+      "MopUp",
+      "Round1",
+      "Round2"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "goa",
+    "name": "Goa",
+    "canonical": "Goa",
+    "type": "State",
+    "authorityName": "DIRECTORATE OF TECHNICAL EDUCATION",
+    "officialWebsiteUrl": "https://dte.goa.gov.in/",
+    "allOfficialLinks": [
+      "https://dte.goa.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTORATE OF TECHNICAL EDUCATION",
+        "url": "https://dte.goa.gov.in/"
+      }
+    ],
+    "documentCount": 1,
+    "totalSizeBytes": 7530238,
+    "availableCategories": [
+      "MeritList"
+    ],
+    "roundsAvailable": [
+      "NotApplicable"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "gujarat",
+    "name": "Gujarat",
+    "canonical": "Gujarat",
+    "type": "State",
+    "authorityName": "Admission Committee for Professional Under Graduate Medical Courses",
+    "officialWebsiteUrl": "https://www.medadmgujarat.org/ug/home.aspx",
+    "allOfficialLinks": [
+      "https://www.medadmgujarat.org/ug/home.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "Admission Committee for Professional Under Graduate Medical Courses",
+        "url": "https://www.medadmgujarat.org/ug/home.aspx"
+      }
+    ],
+    "documentCount": 4,
+    "totalSizeBytes": 2789624,
+    "availableCategories": [
+      "Allotment",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "haryana",
+    "name": "Haryana",
+    "canonical": "Haryana",
+    "type": "State",
+    "authorityName": "Department of Medical Education and Research, Haryana",
+    "officialWebsiteUrl": "https://uhsrugcounselling.com/Notice",
+    "allOfficialLinks": [
+      "https://uhsrugcounselling.com/Notice"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Medical Education and Research, Haryana",
+        "url": "https://uhsrugcounselling.com/Notice"
+      }
+    ],
+    "documentCount": 3,
+    "totalSizeBytes": 2585085,
+    "availableCategories": [
+      "Allotment"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "canonical": "HimachalPradesh",
+    "type": "State",
+    "authorityName": "Atal Medical & Research University, Himachal Pradesh",
+    "officialWebsiteUrl": "https://amruhp.ac.in/",
+    "allOfficialLinks": [
+      "https://amruhp.ac.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Atal Medical & Research University, Himachal Pradesh",
+        "url": "https://amruhp.ac.in/"
+      }
+    ],
+    "documentCount": 4,
+    "totalSizeBytes": 3383055,
+    "availableCategories": [
+      "Allotment",
+      "MeritList"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "jharkhand",
+    "name": "Jharkhand",
+    "canonical": "Jharkhand",
+    "type": "State",
+    "authorityName": "Jharkhand Combined Entrance Competitive Examination Board",
+    "officialWebsiteUrl": "https://jceceb.jharkhand.gov.in/",
+    "allOfficialLinks": [
+      "https://jceceb.jharkhand.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Jharkhand Combined Entrance Competitive Examination Board",
+        "url": "https://jceceb.jharkhand.gov.in/"
+      }
+    ],
+    "documentCount": 4,
+    "totalSizeBytes": 3711110,
+    "availableCategories": [
+      "Allotment",
+      "MeritList"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "karnataka",
+    "name": "Karnataka",
+    "canonical": "Karnataka",
+    "type": "State",
+    "authorityName": "Karnataka Examinations Authority",
+    "officialWebsiteUrl": "https://cetonline.karnataka.gov.in/kea/indexnew",
+    "allOfficialLinks": [
+      "https://cetonline.karnataka.gov.in/kea/indexnew"
+    ],
+    "authorities": [
+      {
+        "name": "Karnataka Examinations Authority",
+        "url": "https://cetonline.karnataka.gov.in/kea/indexnew"
+      }
+    ],
+    "documentCount": 4,
+    "totalSizeBytes": 25812407,
+    "availableCategories": [
+      "Allotment",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "kerala",
+    "name": "Kerala",
+    "canonical": "Kerala",
+    "type": "State",
+    "authorityName": "Office of the Commissioner for Entrance Examinations (CEE), Kerala",
+    "officialWebsiteUrl": "https://cee.kerala.gov.in/keam2026/allotlist",
+    "allOfficialLinks": [
+      "https://cee.kerala.gov.in/keam2026/allotlist"
+    ],
+    "authorities": [
+      {
+        "name": "Office of the Commissioner for Entrance Examinations (CEE), Kerala",
+        "url": "https://cee.kerala.gov.in/keam2026/allotlist",
+        "role": "State Medical Counselling (KEAM)"
+      }
+    ],
+    "documentCount": 8,
+    "totalSizeBytes": 5271814,
+    "availableCategories": [
+      "Allotment",
+      "MeritList"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3",
+      "StrayVacancy"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "madhya-pradesh",
+    "name": "Madhya Pradesh",
+    "canonical": "MadhyaPradesh",
+    "type": "State",
+    "authorityName": "Department of public health and medical education Madhya Pradesh",
+    "officialWebsiteUrl": "https://dme.mponline.gov.in/portal/services/dmemp/dmehome.aspx",
+    "allOfficialLinks": [
+      "https://dme.mponline.gov.in/portal/services/dmemp/dmehome.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "Department of public health and medical education Madhya Pradesh",
+        "url": "https://dme.mponline.gov.in/portal/services/dmemp/dmehome.aspx"
+      }
+    ],
+    "documentCount": 8,
+    "totalSizeBytes": 14608001,
+    "availableCategories": [
+      "Allotment",
+      "Analysis",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "MopUp",
+      "NotApplicable",
+      "Round1",
+      "Round2"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "maharashtra",
+    "name": "Maharashtra",
+    "canonical": "Maharashtra",
+    "type": "State",
+    "authorityName": "State Common Entrance Test Cell,Maharashtra, Mumbai",
+    "officialWebsiteUrl": "https://medical2026.mahacet.org/NEET-UG-2026/login",
+    "allOfficialLinks": [
+      "https://medical2026.mahacet.org/NEET-UG-2026/login"
+    ],
+    "authorities": [
+      {
+        "name": "State Common Entrance Test Cell,Maharashtra, Mumbai",
+        "url": "https://medical2026.mahacet.org/NEET-UG-2026/login"
+      }
+    ],
+    "documentCount": 5,
+    "totalSizeBytes": 20089931,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "manipur",
+    "name": "Manipur",
+    "canonical": "Manipur",
+    "type": "State",
+    "authorityName": "Directorate of Health Services / Directorate of Medical Education (Manipur Medical e-Counselling)",
+    "officialWebsiteUrl": "https://manipurmc.mn.gov.in/",
+    "allOfficialLinks": [
+      "https://manipurmc.mn.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Health Services / Directorate of Medical Education, Manipur",
+        "url": "https://manipurmc.mn.gov.in/",
+        "role": "Manipur Medical e-Counselling"
+      }
+    ],
+    "documentCount": 11,
+    "totalSizeBytes": 20064662,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "meghalaya",
+    "name": "Meghalaya",
+    "canonical": "Meghalaya",
+    "type": "State",
+    "authorityName": "Department of Health & Family Welfare (Meghalaya) & NEIGRIHMS",
+    "officialWebsiteUrl": "https://meghealth.gov.in/dhs_mi_director.html",
+    "allOfficialLinks": [
+      "https://meghealth.gov.in/dhs_mi_director.html",
+      "https://neigrihms.gov.in/#"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Health and Family Welfare, Government of Meghalaya",
+        "url": "https://meghealth.gov.in/dhs_mi_director.html",
+        "role": "State Quota & PA Sangma Medical College"
+      },
+      {
+        "name": "North Eastern Indira Gandhi Regional Institute of Health & Medical Sciences (NEIGRIHMS)",
+        "url": "https://neigrihms.gov.in/#",
+        "role": "Autonomous Institute Seats"
+      }
+    ],
+    "documentCount": 6,
+    "totalSizeBytes": 24011730,
+    "availableCategories": [
+      "Allotment"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "mizoram",
+    "name": "Mizoram",
+    "canonical": "Mizoram",
+    "type": "State",
+    "authorityName": "Department of Higher and Technical Education",
+    "officialWebsiteUrl": "https://dhte.mizoram.gov.in/",
+    "allOfficialLinks": [
+      "https://dhte.mizoram.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Higher and Technical Education",
+        "url": "https://dhte.mizoram.gov.in/"
+      }
+    ],
+    "documentCount": 2,
+    "totalSizeBytes": 13309681,
+    "availableCategories": [
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "nagaland",
+    "name": "Nagaland",
+    "canonical": "Nagaland",
+    "type": "State",
+    "authorityName": "Directorate of Technical Education, Nagaland",
+    "officialWebsiteUrl": "https://dte.nagaland.gov.in/",
+    "allOfficialLinks": [
+      "https://dte.nagaland.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Technical Education, Nagaland",
+        "url": "https://dte.nagaland.gov.in/"
+      }
+    ],
+    "documentCount": 1,
+    "totalSizeBytes": 3944664,
+    "availableCategories": [
+      "MeritList"
+    ],
+    "roundsAvailable": [
+      "NotApplicable"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "odisha",
+    "name": "Odisha",
+    "canonical": "Odisha",
+    "type": "State",
+    "authorityName": "Odisha Joint Entrance Examination",
+    "officialWebsiteUrl": "https://odishajee.com/",
+    "allOfficialLinks": [
+      "https://odishajee.com/"
+    ],
+    "authorities": [
+      {
+        "name": "Odisha Joint Entrance Examination",
+        "url": "https://odishajee.com/"
+      }
+    ],
+    "documentCount": 6,
+    "totalSizeBytes": 7265841,
+    "availableCategories": [
+      "Allotment",
+      "Analysis",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "Combined",
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "punjab",
+    "name": "Punjab",
+    "canonical": "Punjab",
+    "type": "State",
+    "authorityName": "Baba Farid University of Health Sciences, Faridkot",
+    "officialWebsiteUrl": "https://admission.bfuhsonline.ac.in/",
+    "allOfficialLinks": [
+      "https://admission.bfuhsonline.ac.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Baba Farid University of Health Sciences, Faridkot",
+        "url": "https://admission.bfuhsonline.ac.in/"
+      }
+    ],
+    "documentCount": 8,
+    "totalSizeBytes": 7462022,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "canonical": "Rajasthan",
+    "type": "State",
+    "authorityName": "Rajasthan NEET UG Counselling Board",
+    "officialWebsiteUrl": "https://ug.neetrajasthan.com/home",
+    "allOfficialLinks": [
+      "https://ug.neetrajasthan.com/home"
+    ],
+    "authorities": [
+      {
+        "name": "Rajasthan NEET UG Counselling Board",
+        "url": "https://ug.neetrajasthan.com/home"
+      }
+    ],
+    "documentCount": 7,
+    "totalSizeBytes": 33556521,
+    "availableCategories": [
+      "Allotment",
+      "Info",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "sikkim",
+    "name": "Sikkim",
+    "canonical": "Sikkim",
+    "type": "State",
+    "authorityName": "Directorate of Technical Education (Sikkim) & Sikkim Manipal University (SMU)",
+    "officialWebsiteUrl": "https://education.sikkim.gov.in/GeneralSection/StateQuotaSeatsForCounsellingDetails.aspx",
+    "allOfficialLinks": [
+      "https://education.sikkim.gov.in/GeneralSection/StateQuotaSeatsForCounsellingDetails.aspx",
+      "https://www.smu.edu.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Technical Education, Education Department, Sikkim",
+        "url": "https://education.sikkim.gov.in/GeneralSection/StateQuotaSeatsForCounsellingDetails.aspx",
+        "role": "State Quota Counselling"
+      },
+      {
+        "name": "Sikkim Manipal University (SMU) / SMIMS",
+        "url": "https://www.smu.edu.in/",
+        "role": "Management Quota & University Admissions"
+      }
+    ],
+    "documentCount": 9,
+    "totalSizeBytes": 12926275,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "canonical": "TamilNadu",
+    "type": "State",
+    "authorityName": "Directorate of Medical Education and Research",
+    "officialWebsiteUrl": "https://tnmedicalselection.net/Notification.aspx",
+    "allOfficialLinks": [
+      "https://tnmedicalselection.net/Notification.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Medical Education and Research",
+        "url": "https://tnmedicalselection.net/Notification.aspx"
+      }
+    ],
+    "documentCount": 15,
+    "totalSizeBytes": 16673994,
+    "availableCategories": [
+      "Allotment",
+      "CounsellingNotice",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "telangana",
+    "name": "Telangana",
+    "canonical": "Telangana",
+    "type": "State",
+    "authorityName": "KALOJI NARAYANA RAO UNIVERSITY OF HEALTH SCIENCES",
+    "officialWebsiteUrl": "https://www.knruhs.telangana.gov.in/admission-notification/",
+    "allOfficialLinks": [
+      "https://www.knruhs.telangana.gov.in/admission-notification/"
+    ],
+    "authorities": [
+      {
+        "name": "KALOJI NARAYANA RAO UNIVERSITY OF HEALTH SCIENCES",
+        "url": "https://www.knruhs.telangana.gov.in/admission-notification/"
+      }
+    ],
+    "documentCount": 9,
+    "totalSizeBytes": 7995101,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "tripura",
+    "name": "Tripura",
+    "canonical": "Tripura",
+    "type": "State",
+    "authorityName": "Tripura Medical Counselling Committee",
+    "officialWebsiteUrl": "https://trmcc.admissions.nic.in/ug-counselling/",
+    "allOfficialLinks": [
+      "https://trmcc.admissions.nic.in/ug-counselling/"
+    ],
+    "authorities": [
+      {
+        "name": "Tripura Medical Counselling Committee",
+        "url": "https://trmcc.admissions.nic.in/ug-counselling/"
+      }
+    ],
+    "documentCount": 5,
+    "totalSizeBytes": 4225493,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "canonical": "UttarPradesh",
+    "type": "State",
+    "authorityName": "Directorate General of Medical Education and Training",
+    "officialWebsiteUrl": "https://upneet.gov.in/vaccant_result/onallotmainCStatus.aspx#",
+    "allOfficialLinks": [
+      "https://upneet.gov.in/vaccant_result/onallotmainCStatus.aspx#"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate General of Medical Education and Training",
+        "url": "https://upneet.gov.in/vaccant_result/onallotmainCStatus.aspx#"
+      }
+    ],
+    "documentCount": 6,
+    "totalSizeBytes": 83636950,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round1_Round2"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "uttarakhand",
+    "name": "Uttarakhand",
+    "canonical": "Uttarakhand",
+    "type": "State",
+    "authorityName": "Hemwati Nandan Bahuguna Uttarakhand Medical Education University (HNBUMU)",
+    "officialWebsiteUrl": "https://www.hnbumu.ac.in/#",
+    "allOfficialLinks": [
+      "https://www.hnbumu.ac.in/#",
+      "https://meta-secure.com/HNBUMU_NEETUG"
+    ],
+    "authorities": [
+      {
+        "name": "Hemwati Nandan Bahuguna Uttarakhand Medical Education University (HNBUMU)",
+        "url": "https://www.hnbumu.ac.in/#",
+        "role": "Official University Website"
+      },
+      {
+        "name": "HNBUMU NEET UG Candidate Counselling Portal",
+        "url": "https://meta-secure.com/HNBUMU_NEETUG",
+        "role": "Online Allotment System"
+      }
+    ],
+    "documentCount": 4,
+    "totalSizeBytes": 16028176,
+    "availableCategories": [
+      "Allotment",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "west-bengal",
+    "name": "West Bengal",
+    "canonical": "WestBengal",
+    "type": "State",
+    "authorityName": "West Bengal Medical Counselling Committee",
+    "officialWebsiteUrl": "https://wbmcc.nic.in/",
+    "allOfficialLinks": [
+      "https://wbmcc.nic.in/"
+    ],
+    "authorities": [
+      {
+        "name": "West Bengal Medical Counselling Committee",
+        "url": "https://wbmcc.nic.in/"
+      }
+    ],
+    "documentCount": 5,
+    "totalSizeBytes": 11278094,
+    "availableCategories": [
+      "Allotment",
+      "Info",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "andaman-and-nicobar",
+    "name": "Andaman and Nicobar Islands",
+    "canonical": "AndamanNicobar",
+    "type": "Union Territory",
+    "authorityName": "Department of Higher Education",
+    "officialWebsiteUrl": "https://collegeadmission.andamannicobar.gov.in/#no-back-button",
+    "allOfficialLinks": [
+      "https://collegeadmission.andamannicobar.gov.in/#no-back-button"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Higher Education",
+        "url": "https://collegeadmission.andamannicobar.gov.in/#no-back-button"
+      }
+    ],
+    "documentCount": 3,
+    "totalSizeBytes": 3669117,
+    "availableCategories": [
+      "MeritList"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "chandigarh",
+    "name": "Chandigarh",
+    "canonical": "Chandigarh",
+    "type": "Union Territory",
+    "authorityName": "Government Medical College and Hospital",
+    "officialWebsiteUrl": "https://gmch.gov.in/",
+    "allOfficialLinks": [
+      "https://gmch.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Government Medical College and Hospital",
+        "url": "https://gmch.gov.in/"
+      }
+    ],
+    "documentCount": 2,
+    "totalSizeBytes": 1216620,
+    "availableCategories": [
+      "MeritList"
+    ],
+    "roundsAvailable": [
+      "NotApplicable"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "canonical": "DadraNagarHaveliDamanDiu",
+    "type": "Union Territory",
+    "authorityName": "NAMO Medical Education and Research Society",
+    "officialWebsiteUrl": "https://namomeriadmission.in/",
+    "allOfficialLinks": [
+      "https://namomeriadmission.in/"
+    ],
+    "authorities": [
+      {
+        "name": "NAMO Medical Education and Research Society",
+        "url": "https://namomeriadmission.in/"
+      }
+    ],
+    "documentCount": 6,
+    "totalSizeBytes": 1440060,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3",
+      "StrayVacancy"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "delhi",
+    "name": "Delhi",
+    "canonical": "Delhi",
+    "type": "Union Territory",
+    "authorityName": "Medical Counselling Committee (MCC) & Guru Gobind Singh Indraprastha University (GGSIPU)",
+    "officialWebsiteUrl": "https://mcc.nic.in/ug-medical-counselling/",
+    "allOfficialLinks": [
+      "https://mcc.nic.in/ug-medical-counselling/",
+      "https://www.ipu.ac.in/adm2026/adm2026main.php"
+    ],
+    "authorities": [
+      {
+        "name": "Medical Counselling Committee (MCC)",
+        "url": "https://mcc.nic.in/ug-medical-counselling/",
+        "role": "Central Universities (LHMC, MAMC, UCMS, ABVIMS)"
+      },
+      {
+        "name": "Guru Gobind Singh Indraprastha University (GGSIPU)",
+        "url": "https://www.ipu.ac.in/adm2026/adm2026main.php",
+        "role": "State Quota & IPU Affiliated Colleges"
+      }
+    ],
+    "documentCount": 3,
+    "totalSizeBytes": 1163978,
+    "availableCategories": [
+      "Allotment",
+      "Analysis"
+    ],
+    "roundsAvailable": [
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "jammu-and-kashmir",
+    "name": "Jammu and Kashmir",
+    "canonical": "JammuKashmir",
+    "type": "Union Territory",
+    "authorityName": "J&K BOARD OF PROFESSIONAL ENTRANCE EXAMINATION",
+    "officialWebsiteUrl": "https://www.jkbopee.gov.in/Notifications.aspx",
+    "allOfficialLinks": [
+      "https://www.jkbopee.gov.in/Notifications.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "J&K BOARD OF PROFESSIONAL ENTRANCE EXAMINATION",
+        "url": "https://www.jkbopee.gov.in/Notifications.aspx"
+      }
+    ],
+    "documentCount": 6,
+    "totalSizeBytes": 9252560,
+    "availableCategories": [
+      "Allotment",
+      "CounsellingNotice"
+    ],
+    "roundsAvailable": [
+      "MopUp",
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "lakshadweep",
+    "name": "Lakshadweep",
+    "canonical": "Lakshadweep",
+    "type": "Union Territory",
+    "authorityName": "Department of Education, Lakshadweep",
+    "officialWebsiteUrl": "https://lakshadweep.gov.in/",
+    "allOfficialLinks": [
+      "https://lakshadweep.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Education, Lakshadweep",
+        "url": "https://lakshadweep.gov.in/"
+      }
+    ],
+    "documentCount": 3,
+    "totalSizeBytes": 2122321,
+    "availableCategories": [
+      "Allotment",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable"
+    ],
+    "hasDocuments": true
+  },
+  {
+    "slug": "puducherry",
+    "name": "Puducherry",
+    "canonical": "Puducherry",
+    "type": "Union Territory",
+    "authorityName": "CENTRALISED ADMISSION COMMITTEE (CENTAC)",
+    "officialWebsiteUrl": "https://centacpuducherry.in/",
+    "allOfficialLinks": [
+      "https://centacpuducherry.in/"
+    ],
+    "authorities": [
+      {
+        "name": "CENTRALISED ADMISSION COMMITTEE (CENTAC)",
+        "url": "https://centacpuducherry.in/"
+      }
+    ],
+    "documentCount": 22,
+    "totalSizeBytes": 16165317,
+    "availableCategories": [
+      "Allotment",
+      "MeritList",
+      "SeatMatrix"
+    ],
+    "roundsAvailable": [
+      "NotApplicable",
+      "Round1",
+      "Round2",
+      "Round3"
+    ],
+    "hasDocuments": true
+  }
+]

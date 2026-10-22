@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Medical Scholar Palette (Sampled from Reference Image) */
+  --color-primary: #322e45;      /* Deep Plum Slate (Left half) */
+  --color-secondary: #4c3f6b;    /* Amethyst Violet (Right half) */
+  --color-accent: #5e4d84;       /* Interactive Violet */
+  --color-accent-light: #f0ecf6; /* Soft Lavender Badge */
+
+  /* Light Theme */
+  --bg-canvas: #f9f8fb;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f3f0f7;
+  --bg-hover: #ece7f3;
+  --border-color: #e2dde8;
+  --border-subtle: #ece8f2;
+  --text-primary: #272336;
+  --text-secondary: #5c566a;
+  --text-muted: #7b7489;
+  --nav-primary: #322e45;
+  --nav-sub: #272336;
+  --accent-violet: #4c3f6b;
+  --accent-badge-bg: #f0ecf6;
+  --accent-badge-text: #322e45;
+  --card-shadow: 0 1px 3px rgba(50, 46, 69, 0.06);
+}
+
+[data-theme="dark"],
+html.dark {
+  /* Dark Theme */
+  --bg-canvas: #161320;
+  --bg-surface: #201c2c;
+  --bg-subtle: #2b263b;
+  --bg-hover: #352f47;
+  --border-color: #38314a;
+  --border-subtle: #2d273c;
+  --text-primary: #f1edf7;
+  --text-secondary: #a9a1ba;
+  --text-muted: #7f7690;
+  --nav-primary: #1d1929;
+  --nav-sub: #161320;
+  --accent-violet: #8e7bb5;
+  --accent-badge-bg: #2b253c;
+  --accent-badge-text: #dcd4ec;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Accessibility Font Scaling (Government Portal Standard A- / A / A+) */
+html {
+  font-size: 100%;
+  transition: font-size 0.15s ease;
+  overflow-x: hidden;
+}
+
+html[data-font-scale="decrease"] {
+  font-size: 90%;
+}
+
+html[data-font-scale="normal"] {
+  font-size: 100%;
+}
+
+html[data-font-scale="increase"] {
+  font-size: 112.5%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: 'Helvetica Neue', Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Classic Simple Typography */
+.font-brand-serif {
+  font-family: Georgia, Cambria, 'Times New Roman', serif;
+}
+
+.font-sans-clean {
+  font-family: 'Helvetica Neue', Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* WCAG 2.2 AA Focus Rings on all interactive elements */
+:focus-visible {
+  outline: 2px solid var(--accent-violet);
+  outline-offset: 2px;
+}
+
+/* Reduced Motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+[data-theme="dark"] ::-webkit-scrollbar-thumb,
+html.dark ::-webkit-scrollbar-thumb {
+  background: #3e3652;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
+
+/* Theme Utilities */
+.theme-bg {
+  background-color: var(--bg-canvas);
+}
+.theme-surface {
+  background-color: var(--bg-surface);
+}
+.theme-subtle {
+  background-color: var(--bg-subtle);
+}
+.theme-border {
+  border-color: var(--border-color);
+}
+.theme-text {
+  color: var(--text-primary);
+}
+.theme-text-secondary {
+  color: var(--text-secondary);
+}
+.theme-text-muted {
+  color: var(--text-muted);
+}
+
+/* MAL-inspired panel headers with violet theme trim */
+.mal-header {
+  background-color: var(--nav-primary);
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 6px 6px 0 0;
+  font-size: 0.95rem;
+  border-bottom: 2px solid var(--color-secondary);
+}
+
+.mal-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  box-shadow: var(--card-shadow);
+}
+
+/* Dark mode overrides for Tailwind utility cards */
+[data-theme="dark"] .bg-white,
+html.dark .bg-white {
+  background-color: var(--bg-surface) !important;
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .border-\[\#dbe0ea\],
+html.dark .border-\[\#dbe0ea\] {
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .border-slate-200,
+html.dark .border-slate-200 {
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .border-slate-100,
+html.dark .border-slate-100 {
+  border-color: var(--border-subtle) !important;
+}
+
+[data-theme="dark"] .bg-slate-50,
+html.dark .bg-slate-50 {
+  background-color: var(--bg-subtle) !important;
+}
+
+[data-theme="dark"] .bg-slate-100,
+html.dark .bg-slate-100 {
+  background-color: var(--bg-subtle) !important;
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .hover\:bg-slate-50:hover,
+html.dark .hover\:bg-slate-50:hover {
+  background-color: var(--bg-hover) !important;
+}
+
+[data-theme="dark"] .text-slate-900,
+html.dark .text-slate-900 {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .text-slate-800,
+html.dark .text-slate-800 {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .text-slate-700,
+html.dark .text-slate-700 {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .text-slate-600,
+html.dark .text-slate-600 {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .text-slate-500,
+html.dark .text-slate-500 {
+  color: var(--text-muted) !important;
+}
+
+/* GitHub Star Badge */
+.github-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.github-badge:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: #dcd4ec;
+  color: #dcd4ec;
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.theme-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: #dcd4ec;
+  color: #dcd4ec;
+}

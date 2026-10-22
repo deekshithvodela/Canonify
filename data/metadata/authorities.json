@@ -1,0 +1,680 @@
+[
+  {
+    "canonicalJurisdiction": "AllIndia",
+    "displayName": "All India Quota",
+    "jurisdictionType": "All India",
+    "slug": "all-india",
+    "authorityName": "Medical Counselling Committee (MCC)",
+    "officialWebsiteUrl": "https://mcc.nic.in/ug-medical-counselling/",
+    "allOfficialLinks": [
+      "https://mcc.nic.in/ug-medical-counselling/"
+    ],
+    "authorities": [
+      {
+        "name": "Medical Counselling Committee (MCC)",
+        "url": "https://mcc.nic.in/ug-medical-counselling/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "AndamanNicobar",
+    "displayName": "Andaman and Nicobar Islands",
+    "jurisdictionType": "Union Territory",
+    "slug": "andaman-and-nicobar",
+    "authorityName": "Department of Higher Education",
+    "officialWebsiteUrl": "https://collegeadmission.andamannicobar.gov.in/#no-back-button",
+    "allOfficialLinks": [
+      "https://collegeadmission.andamannicobar.gov.in/#no-back-button"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Higher Education",
+        "url": "https://collegeadmission.andamannicobar.gov.in/#no-back-button"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "AndhraPradesh",
+    "displayName": "Andhra Pradesh",
+    "jurisdictionType": "State",
+    "slug": "andhra-pradesh",
+    "authorityName": "Dr. N.T.R UNIVERSITY OF HEALTH SCIENCES",
+    "officialWebsiteUrl": "https://drntr.uhsap.in/index/notification_admission",
+    "allOfficialLinks": [
+      "https://drntr.uhsap.in/index/notification_admission"
+    ],
+    "authorities": [
+      {
+        "name": "Dr. N.T.R UNIVERSITY OF HEALTH SCIENCES",
+        "url": "https://drntr.uhsap.in/index/notification_admission"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "ArunachalPradesh",
+    "displayName": "Arunachal Pradesh",
+    "jurisdictionType": "State",
+    "slug": "arunachal-pradesh",
+    "authorityName": "DIRECTORATE OF HIGHER & TECHNICAL EDUCATION",
+    "officialWebsiteUrl": "https://apjee.co.in/",
+    "allOfficialLinks": [
+      "https://apjee.co.in/"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTORATE OF HIGHER & TECHNICAL EDUCATION",
+        "url": "https://apjee.co.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Assam",
+    "displayName": "Assam",
+    "jurisdictionType": "State",
+    "slug": "assam",
+    "authorityName": "DIRECTOR OF MEDICAL EDUCATION, ASSAM",
+    "officialWebsiteUrl": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew",
+    "allOfficialLinks": [
+      "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTOR OF MEDICAL EDUCATION, ASSAM",
+        "url": "https://dme.assam.gov.in/latest/admission-notice-ugpgothersnew"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Bihar",
+    "displayName": "Bihar",
+    "jurisdictionType": "State",
+    "slug": "bihar",
+    "authorityName": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+    "officialWebsiteUrl": "https://bceceboard.bihar.gov.in/",
+    "allOfficialLinks": [
+      "https://bceceboard.bihar.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+        "url": "https://bceceboard.bihar.gov.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Chandigarh",
+    "displayName": "Chandigarh",
+    "jurisdictionType": "Union Territory",
+    "slug": "chandigarh",
+    "authorityName": "Government Medical College and Hospital",
+    "officialWebsiteUrl": "https://gmch.gov.in/",
+    "allOfficialLinks": [
+      "https://gmch.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Government Medical College and Hospital",
+        "url": "https://gmch.gov.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Chhattisgarh",
+    "displayName": "Chhattisgarh",
+    "jurisdictionType": "State",
+    "slug": "chhattisgarh",
+    "authorityName": "DIRECTORATE OF MEDICAL EDUCATION, CHHATTISGARH",
+    "officialWebsiteUrl": "https://cgdme.admissions.nic.in/",
+    "allOfficialLinks": [
+      "https://cgdme.admissions.nic.in/"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTORATE OF MEDICAL EDUCATION, CHHATTISGARH",
+        "url": "https://cgdme.admissions.nic.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "DadraNagarHaveliDamanDiu",
+    "displayName": "Dadra and Nagar Haveli and Daman and Diu",
+    "jurisdictionType": "Union Territory",
+    "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+    "authorityName": "NAMO Medical Education and Research Society",
+    "officialWebsiteUrl": "https://namomeriadmission.in/",
+    "allOfficialLinks": [
+      "https://namomeriadmission.in/"
+    ],
+    "authorities": [
+      {
+        "name": "NAMO Medical Education and Research Society",
+        "url": "https://namomeriadmission.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Delhi",
+    "displayName": "Delhi",
+    "jurisdictionType": "Union Territory",
+    "slug": "delhi",
+    "authorityName": "Medical Counselling Committee (MCC) & Guru Gobind Singh Indraprastha University (GGSIPU)",
+    "officialWebsiteUrl": "https://mcc.nic.in/ug-medical-counselling/",
+    "allOfficialLinks": [
+      "https://mcc.nic.in/ug-medical-counselling/",
+      "https://www.ipu.ac.in/adm2026/adm2026main.php"
+    ],
+    "authorities": [
+      {
+        "name": "Medical Counselling Committee (MCC)",
+        "url": "https://mcc.nic.in/ug-medical-counselling/",
+        "role": "Central Universities (LHMC, MAMC, UCMS, ABVIMS)"
+      },
+      {
+        "name": "Guru Gobind Singh Indraprastha University (GGSIPU)",
+        "url": "https://www.ipu.ac.in/adm2026/adm2026main.php",
+        "role": "State Quota & IPU Affiliated Colleges"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Goa",
+    "displayName": "Goa",
+    "jurisdictionType": "State",
+    "slug": "goa",
+    "authorityName": "DIRECTORATE OF TECHNICAL EDUCATION",
+    "officialWebsiteUrl": "https://dte.goa.gov.in/",
+    "allOfficialLinks": [
+      "https://dte.goa.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "DIRECTORATE OF TECHNICAL EDUCATION",
+        "url": "https://dte.goa.gov.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Gujarat",
+    "displayName": "Gujarat",
+    "jurisdictionType": "State",
+    "slug": "gujarat",
+    "authorityName": "Admission Committee for Professional Under Graduate Medical Courses",
+    "officialWebsiteUrl": "https://www.medadmgujarat.org/ug/home.aspx",
+    "allOfficialLinks": [
+      "https://www.medadmgujarat.org/ug/home.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "Admission Committee for Professional Under Graduate Medical Courses",
+        "url": "https://www.medadmgujarat.org/ug/home.aspx"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Haryana",
+    "displayName": "Haryana",
+    "jurisdictionType": "State",
+    "slug": "haryana",
+    "authorityName": "Department of Medical Education and Research, Haryana",
+    "officialWebsiteUrl": "https://uhsrugcounselling.com/Notice",
+    "allOfficialLinks": [
+      "https://uhsrugcounselling.com/Notice"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Medical Education and Research, Haryana",
+        "url": "https://uhsrugcounselling.com/Notice"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "HimachalPradesh",
+    "displayName": "Himachal Pradesh",
+    "jurisdictionType": "State",
+    "slug": "himachal-pradesh",
+    "authorityName": "Atal Medical & Research University, Himachal Pradesh",
+    "officialWebsiteUrl": "https://amruhp.ac.in/",
+    "allOfficialLinks": [
+      "https://amruhp.ac.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Atal Medical & Research University, Himachal Pradesh",
+        "url": "https://amruhp.ac.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "JammuKashmir",
+    "displayName": "Jammu and Kashmir",
+    "jurisdictionType": "Union Territory",
+    "slug": "jammu-and-kashmir",
+    "authorityName": "J&K BOARD OF PROFESSIONAL ENTRANCE EXAMINATION",
+    "officialWebsiteUrl": "https://www.jkbopee.gov.in/Notifications.aspx",
+    "allOfficialLinks": [
+      "https://www.jkbopee.gov.in/Notifications.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "J&K BOARD OF PROFESSIONAL ENTRANCE EXAMINATION",
+        "url": "https://www.jkbopee.gov.in/Notifications.aspx"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Jharkhand",
+    "displayName": "Jharkhand",
+    "jurisdictionType": "State",
+    "slug": "jharkhand",
+    "authorityName": "Jharkhand Combined Entrance Competitive Examination Board",
+    "officialWebsiteUrl": "https://jceceb.jharkhand.gov.in/",
+    "allOfficialLinks": [
+      "https://jceceb.jharkhand.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Jharkhand Combined Entrance Competitive Examination Board",
+        "url": "https://jceceb.jharkhand.gov.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Karnataka",
+    "displayName": "Karnataka",
+    "jurisdictionType": "State",
+    "slug": "karnataka",
+    "authorityName": "Karnataka Examinations Authority",
+    "officialWebsiteUrl": "https://cetonline.karnataka.gov.in/kea/indexnew",
+    "allOfficialLinks": [
+      "https://cetonline.karnataka.gov.in/kea/indexnew"
+    ],
+    "authorities": [
+      {
+        "name": "Karnataka Examinations Authority",
+        "url": "https://cetonline.karnataka.gov.in/kea/indexnew"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Kerala",
+    "displayName": "Kerala",
+    "jurisdictionType": "State",
+    "slug": "kerala",
+    "authorityName": "Office of the Commissioner for Entrance Examinations (CEE), Kerala",
+    "officialWebsiteUrl": "https://cee.kerala.gov.in/keam2026/allotlist",
+    "allOfficialLinks": [
+      "https://cee.kerala.gov.in/keam2026/allotlist"
+    ],
+    "authorities": [
+      {
+        "name": "Office of the Commissioner for Entrance Examinations (CEE), Kerala",
+        "url": "https://cee.kerala.gov.in/keam2026/allotlist",
+        "role": "State Medical Counselling (KEAM)"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Lakshadweep",
+    "displayName": "Lakshadweep",
+    "jurisdictionType": "Union Territory",
+    "slug": "lakshadweep",
+    "authorityName": "Department of Education, Lakshadweep",
+    "officialWebsiteUrl": "https://lakshadweep.gov.in/",
+    "allOfficialLinks": [
+      "https://lakshadweep.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Education, Lakshadweep",
+        "url": "https://lakshadweep.gov.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "MadhyaPradesh",
+    "displayName": "Madhya Pradesh",
+    "jurisdictionType": "State",
+    "slug": "madhya-pradesh",
+    "authorityName": "Department of public health and medical education Madhya Pradesh",
+    "officialWebsiteUrl": "https://dme.mponline.gov.in/portal/services/dmemp/dmehome.aspx",
+    "allOfficialLinks": [
+      "https://dme.mponline.gov.in/portal/services/dmemp/dmehome.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "Department of public health and medical education Madhya Pradesh",
+        "url": "https://dme.mponline.gov.in/portal/services/dmemp/dmehome.aspx"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Maharashtra",
+    "displayName": "Maharashtra",
+    "jurisdictionType": "State",
+    "slug": "maharashtra",
+    "authorityName": "State Common Entrance Test Cell,Maharashtra, Mumbai",
+    "officialWebsiteUrl": "https://medical2026.mahacet.org/NEET-UG-2026/login",
+    "allOfficialLinks": [
+      "https://medical2026.mahacet.org/NEET-UG-2026/login"
+    ],
+    "authorities": [
+      {
+        "name": "State Common Entrance Test Cell,Maharashtra, Mumbai",
+        "url": "https://medical2026.mahacet.org/NEET-UG-2026/login"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Manipur",
+    "displayName": "Manipur",
+    "jurisdictionType": "State",
+    "slug": "manipur",
+    "authorityName": "Directorate of Health Services / Directorate of Medical Education (Manipur Medical e-Counselling)",
+    "officialWebsiteUrl": "https://manipurmc.mn.gov.in/",
+    "allOfficialLinks": [
+      "https://manipurmc.mn.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Health Services / Directorate of Medical Education, Manipur",
+        "url": "https://manipurmc.mn.gov.in/",
+        "role": "Manipur Medical e-Counselling"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Meghalaya",
+    "displayName": "Meghalaya",
+    "jurisdictionType": "State",
+    "slug": "meghalaya",
+    "authorityName": "Department of Health & Family Welfare (Meghalaya) & NEIGRIHMS",
+    "officialWebsiteUrl": "https://meghealth.gov.in/dhs_mi_director.html",
+    "allOfficialLinks": [
+      "https://meghealth.gov.in/dhs_mi_director.html",
+      "https://neigrihms.gov.in/#"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Health and Family Welfare, Government of Meghalaya",
+        "url": "https://meghealth.gov.in/dhs_mi_director.html",
+        "role": "State Quota & PA Sangma Medical College"
+      },
+      {
+        "name": "North Eastern Indira Gandhi Regional Institute of Health & Medical Sciences (NEIGRIHMS)",
+        "url": "https://neigrihms.gov.in/#",
+        "role": "Autonomous Institute Seats"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Mizoram",
+    "displayName": "Mizoram",
+    "jurisdictionType": "State",
+    "slug": "mizoram",
+    "authorityName": "Department of Higher and Technical Education",
+    "officialWebsiteUrl": "https://dhte.mizoram.gov.in/",
+    "allOfficialLinks": [
+      "https://dhte.mizoram.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Department of Higher and Technical Education",
+        "url": "https://dhte.mizoram.gov.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Nagaland",
+    "displayName": "Nagaland",
+    "jurisdictionType": "State",
+    "slug": "nagaland",
+    "authorityName": "Directorate of Technical Education, Nagaland",
+    "officialWebsiteUrl": "https://dte.nagaland.gov.in/",
+    "allOfficialLinks": [
+      "https://dte.nagaland.gov.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Technical Education, Nagaland",
+        "url": "https://dte.nagaland.gov.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Odisha",
+    "displayName": "Odisha",
+    "jurisdictionType": "State",
+    "slug": "odisha",
+    "authorityName": "Odisha Joint Entrance Examination",
+    "officialWebsiteUrl": "https://odishajee.com/",
+    "allOfficialLinks": [
+      "https://odishajee.com/"
+    ],
+    "authorities": [
+      {
+        "name": "Odisha Joint Entrance Examination",
+        "url": "https://odishajee.com/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Puducherry",
+    "displayName": "Puducherry",
+    "jurisdictionType": "Union Territory",
+    "slug": "puducherry",
+    "authorityName": "CENTRALISED ADMISSION COMMITTEE (CENTAC)",
+    "officialWebsiteUrl": "https://centacpuducherry.in/",
+    "allOfficialLinks": [
+      "https://centacpuducherry.in/"
+    ],
+    "authorities": [
+      {
+        "name": "CENTRALISED ADMISSION COMMITTEE (CENTAC)",
+        "url": "https://centacpuducherry.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Punjab",
+    "displayName": "Punjab",
+    "jurisdictionType": "State",
+    "slug": "punjab",
+    "authorityName": "Baba Farid University of Health Sciences, Faridkot",
+    "officialWebsiteUrl": "https://admission.bfuhsonline.ac.in/",
+    "allOfficialLinks": [
+      "https://admission.bfuhsonline.ac.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Baba Farid University of Health Sciences, Faridkot",
+        "url": "https://admission.bfuhsonline.ac.in/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Rajasthan",
+    "displayName": "Rajasthan",
+    "jurisdictionType": "State",
+    "slug": "rajasthan",
+    "authorityName": "Rajasthan NEET UG Counselling Board",
+    "officialWebsiteUrl": "https://ug.neetrajasthan.com/home",
+    "allOfficialLinks": [
+      "https://ug.neetrajasthan.com/home"
+    ],
+    "authorities": [
+      {
+        "name": "Rajasthan NEET UG Counselling Board",
+        "url": "https://ug.neetrajasthan.com/home"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Sikkim",
+    "displayName": "Sikkim",
+    "jurisdictionType": "State",
+    "slug": "sikkim",
+    "authorityName": "Directorate of Technical Education (Sikkim) & Sikkim Manipal University (SMU)",
+    "officialWebsiteUrl": "https://education.sikkim.gov.in/GeneralSection/StateQuotaSeatsForCounsellingDetails.aspx",
+    "allOfficialLinks": [
+      "https://education.sikkim.gov.in/GeneralSection/StateQuotaSeatsForCounsellingDetails.aspx",
+      "https://www.smu.edu.in/"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Technical Education, Education Department, Sikkim",
+        "url": "https://education.sikkim.gov.in/GeneralSection/StateQuotaSeatsForCounsellingDetails.aspx",
+        "role": "State Quota Counselling"
+      },
+      {
+        "name": "Sikkim Manipal University (SMU) / SMIMS",
+        "url": "https://www.smu.edu.in/",
+        "role": "Management Quota & University Admissions"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "TamilNadu",
+    "displayName": "Tamil Nadu",
+    "jurisdictionType": "State",
+    "slug": "tamil-nadu",
+    "authorityName": "Directorate of Medical Education and Research",
+    "officialWebsiteUrl": "https://tnmedicalselection.net/Notification.aspx",
+    "allOfficialLinks": [
+      "https://tnmedicalselection.net/Notification.aspx"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate of Medical Education and Research",
+        "url": "https://tnmedicalselection.net/Notification.aspx"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Telangana",
+    "displayName": "Telangana",
+    "jurisdictionType": "State",
+    "slug": "telangana",
+    "authorityName": "KALOJI NARAYANA RAO UNIVERSITY OF HEALTH SCIENCES",
+    "officialWebsiteUrl": "https://www.knruhs.telangana.gov.in/admission-notification/",
+    "allOfficialLinks": [
+      "https://www.knruhs.telangana.gov.in/admission-notification/"
+    ],
+    "authorities": [
+      {
+        "name": "KALOJI NARAYANA RAO UNIVERSITY OF HEALTH SCIENCES",
+        "url": "https://www.knruhs.telangana.gov.in/admission-notification/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Tripura",
+    "displayName": "Tripura",
+    "jurisdictionType": "State",
+    "slug": "tripura",
+    "authorityName": "Tripura Medical Counselling Committee",
+    "officialWebsiteUrl": "https://trmcc.admissions.nic.in/ug-counselling/",
+    "allOfficialLinks": [
+      "https://trmcc.admissions.nic.in/ug-counselling/"
+    ],
+    "authorities": [
+      {
+        "name": "Tripura Medical Counselling Committee",
+        "url": "https://trmcc.admissions.nic.in/ug-counselling/"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "UttarPradesh",
+    "displayName": "Uttar Pradesh",
+    "jurisdictionType": "State",
+    "slug": "uttar-pradesh",
+    "authorityName": "Directorate General of Medical Education and Training",
+    "officialWebsiteUrl": "https://upneet.gov.in/vaccant_result/onallotmainCStatus.aspx#",
+    "allOfficialLinks": [
+      "https://upneet.gov.in/vaccant_result/onallotmainCStatus.aspx#"
+    ],
+    "authorities": [
+      {
+        "name": "Directorate General of Medical Education and Training",
+        "url": "https://upneet.gov.in/vaccant_result/onallotmainCStatus.aspx#"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "Uttarakhand",
+    "displayName": "Uttarakhand",
+    "jurisdictionType": "State",
+    "slug": "uttarakhand",
+    "authorityName": "Hemwati Nandan Bahuguna Uttarakhand Medical Education University (HNBUMU)",
+    "officialWebsiteUrl": "https://www.hnbumu.ac.in/#",
+    "allOfficialLinks": [
+      "https://www.hnbumu.ac.in/#",
+      "https://meta-secure.com/HNBUMU_NEETUG"
+    ],
+    "authorities": [
+      {
+        "name": "Hemwati Nandan Bahuguna Uttarakhand Medical Education University (HNBUMU)",
+        "url": "https://www.hnbumu.ac.in/#",
+        "role": "Official University Website"
+      },
+      {
+        "name": "HNBUMU NEET UG Candidate Counselling Portal",
+        "url": "https://meta-secure.com/HNBUMU_NEETUG",
+        "role": "Online Allotment System"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "canonicalJurisdiction": "WestBengal",
+    "displayName": "West Bengal",
+    "jurisdictionType": "State",
+    "slug": "west-bengal",
+    "authorityName": "West Bengal Medical Counselling Committee",
+    "officialWebsiteUrl": "https://wbmcc.nic.in/",
+    "allOfficialLinks": [
+      "https://wbmcc.nic.in/"
+    ],
+    "authorities": [
+      {
+        "name": "West Bengal Medical Counselling Committee",
+        "url": "https://wbmcc.nic.in/"
+      }
+    ],
+    "notes": ""
+  }
+]
