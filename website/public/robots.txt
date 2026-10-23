@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://canonify.org/sitemap.xml
+Sitemap: https://deekshithvodela.github.io/Canonify/sitemap.xml

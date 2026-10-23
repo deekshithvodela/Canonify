@@ -29,7 +29,7 @@ export const PdfPreviewModal: React.FC<PdfPreviewModalProps> = ({ document, onCl
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-900/70 backdrop-blur-sm animate-fade-in">
-      <div className="bg-white rounded-lg shadow-2xl flex flex-col w-full max-w-5xl h-[90vh] overflow-hidden border border-slate-300">
+      <div className="bg-white dark:bg-[#201c2c] rounded-lg shadow-2xl flex flex-col w-full max-w-5xl h-[90vh] overflow-hidden border border-slate-300 dark:border-[#38314a]">
         {/* Modal Header */}
         <div className="bg-[#322e45] text-white px-4 py-3 flex items-center justify-between shrink-0">
           <div className="flex items-center gap-2.5 overflow-hidden">
@@ -100,21 +100,21 @@ export const PdfPreviewModal: React.FC<PdfPreviewModalProps> = ({ document, onCl
 
         {/* Excel Banner if applicable */}
         {isExcel && (
-          <div className="bg-emerald-50 border-b border-emerald-200 px-4 py-2 flex flex-col sm:flex-row sm:items-center justify-between text-xs text-emerald-900 gap-1 shrink-0">
+          <div className="bg-emerald-50 dark:bg-emerald-950/40 border-b border-emerald-200 dark:border-emerald-800/60 px-4 py-2 flex flex-col sm:flex-row sm:items-center justify-between text-xs text-emerald-900 dark:text-emerald-200 gap-1 shrink-0">
             <span className="flex items-center gap-1.5 font-medium">
               <span>📊</span>
               <span>
                 <strong>Excel Workbook Preview Mode:</strong> Viewing high-fidelity PDF rendition (3 sheets &bull; 14,653 rows).
               </span>
             </span>
-            <span className="text-[11px] text-emerald-700">
+            <span className="text-[11px] text-emerald-700 dark:text-emerald-300">
               Download the native <strong>.xlsx</strong> file above for interactive formulas and sorting.
             </span>
           </div>
         )}
 
         {/* Modal Iframe Content */}
-        <div className="flex-1 bg-slate-100 relative">
+        <div className="flex-1 bg-slate-100 dark:bg-[#161320] relative">
           <iframe
             src={previewUrl}
             title={document.title}

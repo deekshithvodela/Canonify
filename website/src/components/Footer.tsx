@@ -16,7 +16,18 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegalModal }) => {
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-2 gap-y-1 text-center md:text-left">
             <div className="flex items-center gap-1.5 font-semibold text-slate-800 dark:text-slate-200">
               <StethoscopeLogo size={18} className="text-[#4c3f6b] dark:text-[#a99ac7]" />
-              <span>&copy; 2026 Deekshith Vodela</span>
+              <span>
+                &copy; 2026{' '}
+                <a
+                  href="https://www.linkedin.com/in/deekshithvodela/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#4c3f6b] dark:hover:text-[#a99ac7] hover:underline underline-offset-2 transition-colors cursor-pointer"
+                  aria-label="Deekshith Vodela LinkedIn profile (opens in new tab)"
+                >
+                  Deekshith Vodela
+                </a>
+              </span>
             </div>
             <span className="text-slate-400" aria-hidden="true">&bull;</span>
             <button

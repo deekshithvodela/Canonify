@@ -1,7 +1,18 @@
-import pkg from '/home/drover/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/index.js';
-const { chromium } = pkg;
+import os from 'os';
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
+
+let chromium;
+try {
+  const pw = await import('playwright');
+  chromium = pw.chromium;
+} catch {
+  const home = os.homedir();
+  const npxPath = path.join(home, '.npm/_npx/e41f203b7505f1fb/node_modules/playwright/index.js');
+  const pkg = await import(npxPath);
+  chromium = pkg.chromium || pkg.default?.chromium;
+}
 
 const SVG_LOGO = `
 <svg width="64" height="64" viewBox="0 0 32 32" fill="none" stroke="#d3c8e8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
@@ -17,7 +28,7 @@ const SVG_LOGO = `
 
 const templates = [
   {
-    name: 'og-image.png',
+    name: 'og-image',
     width: 1200,
     height: 630,
     html: `
@@ -196,7 +207,7 @@ const templates = [
     `
   },
   {
-    name: 'og-square.png',
+    name: 'og-square',
     width: 600,
     height: 600,
     html: `
@@ -324,7 +335,7 @@ const templates = [
     `
   },
   {
-    name: 'og-banner-wide.png',
+    name: 'og-banner-wide',
     width: 1200,
     height: 400,
     html: `
@@ -436,7 +447,7 @@ const templates = [
     `
   },
   {
-    name: 'og-mobile.png',
+    name: 'og-mobile',
     width: 1080,
     height: 1920,
     html: `
@@ -609,17 +620,34 @@ async function generate() {
     });
 
     await page.setContent(t.html, { waitUntil: 'load' });
-    const outPath = path.join(outDir, t.name);
-    await page.screenshot({ path: outPath, type: 'png' });
-    console.log(`Generated: ${t.name} (${t.width}x${t.height}px) -> ${outPath}`);
+    const rawPng = path.join(outDir, `${t.name}-raw.png`);
+    const finalPng = path.join(outDir, `${t.name}.png`);
+    const finalJpg = path.join(outDir, `${t.name}.jpg`);
+
+    // Capture uncompressed PNG
+    await page.screenshot({ path: rawPng, type: 'png' });
     await page.close();
+
+    // Optimize PNG to 256 colors for small file size (<100KB for WhatsApp)
+    try {
+      execSync(`/usr/bin/convert "${rawPng}" -colors 256 png8:"${finalPng}"`);
+      execSync(`/usr/bin/convert "${rawPng}" -quality 85 "${finalJpg}"`);
+      if (fs.existsSync(rawPng)) fs.unlinkSync(rawPng);
+      const pngSize = (fs.statSync(finalPng).size / 1024).toFixed(1);
+      const jpgSize = (fs.statSync(finalJpg).size / 1024).toFixed(1);
+      console.log(`Generated: ${t.name}.png (${pngSize} KB) & ${t.name}.jpg (${jpgSize} KB)`);
+    } catch (e) {
+      console.warn(`Fallback: ImageMagick convert failed for ${t.name}, using raw screenshot`, e.message);
+      fs.renameSync(rawPng, finalPng);
+    }
   }
 
   await browser.close();
-  console.log('All Open Graph images successfully created!');
+  console.log('All Open Graph images successfully created and optimized!');
 }
 
 generate().catch(err => {
   console.error('Error generating OG images:', err);
   process.exit(1);
 });
+

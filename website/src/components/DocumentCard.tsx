@@ -43,7 +43,7 @@ export const DocumentCard: React.FC<DocumentCardProps> = ({ document, onPreview 
   };
 
   return (
-    <div className="bg-white border border-[#dbe0ea] rounded hover:border-[#4c3f6b] transition-all p-3 sm:p-4 shadow-sm hover:shadow">
+    <div className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded hover:border-[#4c3f6b] dark:hover:border-[#8e7bb5] transition-all p-3 sm:p-4 shadow-sm hover:shadow">
       <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
         {/* Left Info Section */}
         <div className="flex-1">
@@ -56,39 +56,39 @@ export const DocumentCard: React.FC<DocumentCardProps> = ({ document, onPreview 
             </span>
 
             {document.counsellingRound && document.counsellingRound !== 'NotApplicable' && (
-              <span className="text-[11px] font-medium bg-slate-100 text-slate-800 border border-slate-200 px-2 py-0.5 rounded">
+              <span className="text-[11px] font-medium bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 px-2 py-0.5 rounded">
                 {document.counsellingRound.replace(/_/g, ' ')}
               </span>
             )}
 
             {document.quotaCategory && (
-              <span className="text-[11px] font-medium bg-purple-50 text-purple-700 border border-purple-200 px-2 py-0.5 rounded">
+              <span className="text-[11px] font-medium bg-purple-50 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800/60 px-2 py-0.5 rounded">
                 {document.quotaCategory.replace(/Quota/g, ' Quota')}
               </span>
             )}
 
             {document.qualifier && (
-              <span className="text-[10px] text-slate-500 bg-slate-50 border border-slate-200 px-1.5 py-0.5 rounded">
+              <span className="text-[10px] text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 px-1.5 py-0.5 rounded">
                 {document.qualifier.replace(/_/g, ' ')}
               </span>
             )}
           </div>
 
           {/* Title */}
-          <h3 className="text-sm font-semibold text-slate-900 leading-snug mb-1">
+          <h3 className="text-sm font-semibold text-slate-900 dark:text-slate-100 leading-snug mb-1">
             {document.title}
           </h3>
 
           {/* Metadata Subtitle */}
-          <div className="flex flex-wrap items-center gap-3 text-xs text-slate-500">
-            <span>Size: <strong className="text-slate-700 font-medium">{document.fileSizeHuman}</strong></span>
+          <div className="flex flex-wrap items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+            <span>Size: <strong className="text-slate-700 dark:text-slate-300 font-medium">{document.fileSizeHuman}</strong></span>
             {document.pageCount && (
-              <span>Pages: <strong className="text-slate-700 font-medium">{document.pageCount}</strong></span>
+              <span>Pages: <strong className="text-slate-700 dark:text-slate-300 font-medium">{document.pageCount}</strong></span>
             )}
             {document.rowCount && (
-              <span>Records: <strong className="text-slate-700 font-medium">{document.rowCount.toLocaleString()}</strong></span>
+              <span>Records: <strong className="text-slate-700 dark:text-slate-300 font-medium">{document.rowCount.toLocaleString()}</strong></span>
             )}
-            <span className="font-mono text-[11px] text-slate-400 truncate max-w-[220px]" title={document.filename}>
+            <span className="font-mono text-[11px] text-slate-400 dark:text-slate-500 truncate max-w-[220px]" title={document.filename}>
               {document.filename}
             </span>
           </div>

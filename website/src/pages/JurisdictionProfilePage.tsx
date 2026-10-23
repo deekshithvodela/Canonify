@@ -91,10 +91,10 @@ export const JurisdictionProfilePage: React.FC<JurisdictionProfilePageProps> = (
 
   if (!jurisdiction) {
     return (
-      <div className="bg-white border border-[#dbe0ea] rounded p-8 text-center">
+      <div className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded p-8 text-center">
         <AlertCircle className="w-8 h-8 text-amber-500 mx-auto mb-2" />
-        <h2 className="text-base font-bold text-slate-900 mb-1">Jurisdiction Not Found</h2>
-        <p className="text-xs text-slate-500 mb-4">No matching records found for "{slug}".</p>
+        <h2 className="text-base font-bold text-slate-900 dark:text-slate-100 mb-1">Jurisdiction Not Found</h2>
+        <p className="text-xs text-slate-500 dark:text-slate-400 mb-4">No matching records found for "{slug}".</p>
         <button
           onClick={() => navigate('jurisdictions')}
           className="text-xs bg-[#4c3f6b] hover:bg-[#5e4d84] text-white px-4 py-1.5 rounded font-medium"
@@ -137,7 +137,7 @@ export const JurisdictionProfilePage: React.FC<JurisdictionProfilePageProps> = (
         {/* Left Sidebar (MAL Profile Column) - Displays first on mobile (State Info) and left column on desktop */}
         <div className="order-1 md:order-1 md:col-span-1 space-y-3">
           {/* Main Info Box */}
-          <div className="bg-white border border-[#dbe0ea] rounded overflow-hidden shadow-sm">
+          <div className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded overflow-hidden shadow-sm">
             <div className="bg-[#322e45] text-white p-3.5 text-center border-b-2 border-[#4c3f6b]">
               <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-[#4c3f6b] rounded">
                 {jurisdiction.type}
@@ -208,20 +208,20 @@ export const JurisdictionProfilePage: React.FC<JurisdictionProfilePageProps> = (
                 </>
               )}
 
-              <div className="pt-2 border-t border-slate-100">
-                <span className="text-[10px] uppercase font-semibold text-slate-400 block mb-1">Archive Summary</span>
-                <div className="space-y-1 text-slate-600 text-[11px]">
+              <div className="pt-2 border-t border-slate-100 dark:border-slate-800">
+                <span className="text-[10px] uppercase font-semibold text-slate-400 dark:text-slate-500 block mb-1">Archive Summary</span>
+                <div className="space-y-1 text-slate-600 dark:text-slate-400 text-[11px]">
                   <div className="flex justify-between">
                     <span>Academic Year:</span>
-                    <strong className="text-slate-800">{catalog.academicYear}</strong>
+                    <strong className="text-slate-800 dark:text-slate-200">{catalog.academicYear}</strong>
                   </div>
                   <div className="flex justify-between">
                     <span>Total Documents:</span>
-                    <strong className="text-slate-800">{jurisdiction.documentCount}</strong>
+                    <strong className="text-slate-800 dark:text-slate-200">{jurisdiction.documentCount}</strong>
                   </div>
                   <div className="flex justify-between">
                     <span>Total Size:</span>
-                    <strong className="text-slate-800">{(jurisdiction.totalSizeBytes / (1024 * 1024)).toFixed(2)} MB</strong>
+                    <strong className="text-slate-800 dark:text-slate-200">{(jurisdiction.totalSizeBytes / (1024 * 1024)).toFixed(2)} MB</strong>
                   </div>
                 </div>
               </div>
@@ -229,8 +229,8 @@ export const JurisdictionProfilePage: React.FC<JurisdictionProfilePageProps> = (
           </div>
 
           {/* Quick Category Filter (MAL Sidebar Navigation) - Hidden on mobile, visible on desktop */}
-          <div className="hidden md:block bg-white border border-[#dbe0ea] rounded overflow-hidden shadow-sm">
-            <div className="bg-slate-100 border-b border-[#dbe0ea] px-3 py-2 text-xs font-semibold text-slate-700">
+          <div className="hidden md:block bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded overflow-hidden shadow-sm">
+            <div className="bg-slate-100 dark:bg-[#272336] border-b border-[#dbe0ea] dark:border-[#38314a] px-3 py-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
               Filter By Category
             </div>
             <div className="p-1 space-y-0.5 text-xs">
@@ -271,7 +271,7 @@ export const JurisdictionProfilePage: React.FC<JurisdictionProfilePageProps> = (
         {/* Right Main Content Area (Documents & Files) - Displays second on mobile, right column on desktop */}
         <div className="order-2 md:order-2 md:col-span-3 space-y-3">
           {/* Controls Bar: Search, Category Filter (Mobile), & Round Filter */}
-          <div className="bg-white border border-[#dbe0ea] rounded p-3 shadow-sm flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5">
+          <div className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded p-3 shadow-sm flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5">
             {/* Search Input */}
             <div className="relative flex-1">
               <label htmlFor="jurisdiction-doc-search" className="sr-only">
@@ -422,11 +422,11 @@ export const JurisdictionProfilePage: React.FC<JurisdictionProfilePageProps> = (
 
           {/* Empty Filter Results */}
           {jurisdiction.documentCount > 0 && filteredDocs.length === 0 && (
-            <div className="bg-white border border-[#dbe0ea] rounded p-8 text-center text-slate-500 text-xs shadow-sm">
+            <div className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded p-8 text-center text-slate-500 dark:text-slate-400 text-xs shadow-sm">
               <p className="mb-2">No documents match the active filter criteria.</p>
               <button
                 onClick={() => { setSelectedCategory('ALL'); setSelectedRound('ALL'); setSearchFilter(''); }}
-                className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium px-3 py-1.5 rounded transition-colors"
+                className="text-xs bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium px-3 py-1.5 rounded transition-colors"
               >
                 Clear Filters
               </button>

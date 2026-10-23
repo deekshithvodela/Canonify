@@ -72,7 +72,7 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ catalog, navigate, onP
     const { jurisdiction: j, docs } = item;
 
     return (
-      <div key={j.slug} id={`sitemap-${j.slug}`} className="bg-white border border-[#dbe0ea] rounded shadow-sm overflow-hidden mb-4">
+      <div key={j.slug} id={`sitemap-${j.slug}`} className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded shadow-sm overflow-hidden mb-4">
         {/* Jurisdiction Header Bar */}
         <div className="bg-[#f0ecf6] dark:bg-[#201c2c] border-b border-slate-200 dark:border-[#38314a] px-4 py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div className="flex items-center gap-2">
@@ -223,7 +223,7 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ catalog, navigate, onP
   return (
     <div className="space-y-5">
       {/* Page Header */}
-      <div className="bg-white border border-[#dbe0ea] rounded p-4 sm:p-5 shadow-sm">
+      <div className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded p-4 sm:p-5 shadow-sm">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <h1 className="text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2 font-brand-serif">
@@ -268,7 +268,7 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ catalog, navigate, onP
             value={searchQuery}
             autoComplete="off"
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-slate-50 dark:bg-[#1a1726] border border-slate-200 dark:border-[#38314a] rounded text-xs pl-9 pr-4 py-2 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-1 focus:ring-[#4c3f6b] focus:bg-white"
+            className="w-full bg-slate-50 dark:bg-[#1a1726] border border-slate-200 dark:border-[#38314a] rounded text-xs pl-9 pr-4 py-2 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-1 focus:ring-[#4c3f6b] focus:bg-white dark:focus:bg-[#161320]"
           />
           <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" aria-hidden="true" />
           {searchQuery && (
@@ -353,7 +353,7 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ catalog, navigate, onP
       )}
 
       {groupedData.length === 0 && (
-        <div className="bg-white border border-[#dbe0ea] rounded p-8 text-center text-xs text-slate-500 dark:text-slate-400">
+        <div className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded p-8 text-center text-xs text-slate-500 dark:text-slate-400">
           No jurisdictions or documents match your search query "{searchQuery}".
         </div>
       )}

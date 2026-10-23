@@ -106,8 +106,9 @@ export const LegalModal: React.FC<LegalModalProps> = ({ type, onClose }) => {
               <div>
                 <h4 className="font-bold text-slate-900 dark:text-slate-100 text-xs mb-1">2. Local Storage Usage</h4>
                 <p>
-                  We store only one key in your browser's <code className="bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded text-[11px]">localStorage</code>:
-                  <code className="bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded text-[11px] ml-1">canonify-theme</code> ("light" or "dark"). This strictly remembers your visual theme preference between page visits and is never transmitted to any server.
+                  We store only two client-side preference keys in your browser's <code className="bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded text-[11px]">localStorage</code>:
+                  <code className="bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded text-[11px] ml-1">canonify-theme</code> ("light" or "dark") and
+                  <code className="bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded text-[11px] ml-1">canonify-font-scale</code> ("decrease", "normal", or "increase"). These strictly remember your visual display and accessibility font size preferences between visits and are never transmitted to any server.
                 </p>
               </div>
 

@@ -1,0 +1,27 @@
+{
+  "name": "Canonify — NEET Counselling Files Directory",
+  "short_name": "Canonify",
+  "description": "An archival and discovery index of official seat allotment results, state merit lists, vacancy seat matrices, and counselling schedules collected directly from MCC and 36 State/UT admissions authorities across India.",
+  "start_url": "https://deekshithvodela.github.io/Canonify/",
+  "scope": "https://deekshithvodela.github.io/Canonify/",
+  "display": "standalone",
+  "background_color": "#161320",
+  "theme_color": "#322e45",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "categories": ["education", "reference", "books"],
+  "icons": [
+    {
+      "src": "https://deekshithvodela.github.io/Canonify/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://deekshithvodela.github.io/Canonify/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

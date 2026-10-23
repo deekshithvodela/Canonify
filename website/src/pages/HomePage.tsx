@@ -80,7 +80,7 @@ export const HomePage: React.FC<HomePageProps> = ({ catalog, navigate, onPreview
       </section>
 
       {/* All India Quota Spotlight Panel */}
-      <section aria-labelledby="aiq-spotlight-heading" className="bg-white border border-[#dbe0ea] rounded shadow-sm overflow-hidden">
+      <section aria-labelledby="aiq-spotlight-heading" className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded shadow-sm overflow-hidden">
         <div className="mal-header flex items-center justify-between">
           <h2 id="aiq-spotlight-heading" className="flex items-center gap-2 text-sm font-semibold">
             <Globe className="w-4 h-4 text-violet-200" aria-hidden="true" />
@@ -101,7 +101,7 @@ export const HomePage: React.FC<HomePageProps> = ({ catalog, navigate, onPreview
       </section>
 
       {/* Quick Jurisdiction Navigator */}
-      <section aria-labelledby="states-directory-heading" className="bg-white border border-[#dbe0ea] rounded shadow-sm overflow-hidden">
+      <section aria-labelledby="states-directory-heading" className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded shadow-sm overflow-hidden">
         <div className="mal-header flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <h2 id="states-directory-heading" className="flex items-center gap-2 text-sm font-semibold">
             <MapPin className="w-4 h-4 text-violet-200" aria-hidden="true" />
@@ -194,7 +194,7 @@ export const HomePage: React.FC<HomePageProps> = ({ catalog, navigate, onPreview
       </section>
 
       {/* Spotlight Allotments Section */}
-      <section aria-labelledby="key-allotments-heading" className="bg-white border border-[#dbe0ea] rounded shadow-sm overflow-hidden">
+      <section aria-labelledby="key-allotments-heading" className="bg-white dark:bg-[#201c2c] border border-[#dbe0ea] dark:border-[#38314a] rounded shadow-sm overflow-hidden">
         <div className="mal-header flex items-center justify-between">
           <h2 id="key-allotments-heading" className="flex items-center gap-2 text-sm font-semibold">
             <FileCheck className="w-4 h-4 text-emerald-300" aria-hidden="true" />

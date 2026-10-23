@@ -1,0 +1,59 @@
+name: Report Missing Document
+description: Submit an official NEET UG counselling allotment result, merit list, or seat matrix that is not yet in the archive
+title: "[Missing Document]: <State/Authority> - <Round/Category>"
+labels: ["missing-document", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the Canonify document repository up to date! Please provide details about the missing document.
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: State / Union Territory
+      placeholder: e.g. Karnataka, Maharashtra, MCC (All India)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Document Category
+      options:
+        - Seat Allotment Result
+        - State Merit List
+        - Seat Matrix / Vacancy List
+        - Cutoff / Admissions Analysis
+        - Counselling Notification / Schedule
+        - Information Bulletin
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: round
+    attributes:
+      label: Counselling Round
+      options:
+        - Round 1
+        - Round 2
+        - Round 3
+        - Round 4
+        - Mop-Up Round
+        - Stray Vacancy Round
+        - Special Stray Vacancy
+        - Spot Counselling
+        - Not Applicable
+    validations:
+      required: true
+  - type: input
+    id: official_url
+    attributes:
+      label: Official Source Link
+      description: The official government admissions portal URL where this file was published
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Notes
+      placeholder: Any relevant details (e.g. publication date, quota details, or direct PDF link).

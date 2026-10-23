@@ -267,3 +267,63 @@ html.dark .text-slate-500 {
   border-color: #dcd4ec;
   color: #dcd4ec;
 }
+
+/* Print Media Stylesheet (Academic / Government Document Standard) */
+@media print {
+  header[role="banner"],
+  footer[role="contentinfo"],
+  nav,
+  button,
+  select,
+  input,
+  .github-badge,
+  .theme-toggle-btn,
+  [role="dialog"],
+  .fixed,
+  a[download],
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* In print, hide interactive search bars and category filter navigation */
+  .grid > .order-2 > div:first-child,
+  .grid > .order-1 > div:nth-child(2) {
+    display: none !important;
+  }
+
+  .bg-white,
+  .bg-\[\#201c2c\],
+  .mal-box {
+    background: #ffffff !important;
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .mal-header {
+    background: #f0ecf6 !important;
+    color: #322e45 !important;
+    border-bottom: 2px solid #4c3f6b !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  a {
+    text-decoration: underline !important;
+    color: #000000 !important;
+  }
+}
+

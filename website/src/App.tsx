@@ -44,7 +44,7 @@ export function App() {
       description = 'Verified official portals and admissions directorates for MCC and all 36 Indian State and Union Territory counselling committees.';
     } else if (currentRoute === 'sitemap') {
       title = 'Repository Sitemap & Document Index — Canonify';
-      description = 'Hierarchical sitemap indexing all 206 official NEET UG counselling files grouped by state, category, and round.';
+      description = `Hierarchical sitemap indexing all ${catalog.metadata.totalDocuments} official NEET UG counselling files grouped by state, category, and round.`;
     } else if (currentRoute.startsWith('jurisdiction/')) {
       const slug = currentRoute.replace('jurisdiction/', '').split('/')[0];
       const jur = catalog.jurisdictions.find(j => j.slug === slug);

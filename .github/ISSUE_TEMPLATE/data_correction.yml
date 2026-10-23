@@ -1,0 +1,42 @@
+name: Report Data or Classification Correction
+description: Report an incorrect category classification, round tag, quota type, or broken official website link
+title: "[Correction]: <State/Document Name>"
+labels: ["correction", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report an error or ambiguity in document metadata, sorting, authority URL, or classification.
+  - type: input
+    id: document_id
+    attributes:
+      label: Document Title or Filename
+      placeholder: e.g. 2026_Karnataka_Allotment_Round1.pdf
+    validations:
+      required: true
+  - type: dropdown
+    id: error_type
+    attributes:
+      label: Type of Issue
+      options:
+        - Incorrect Document Category (Allotment vs Merit List vs Seat Matrix)
+        - Incorrect Counselling Round Tag
+        - Incorrect Quota Classification
+        - Broken / Outdated Authority Portal Link
+        - Typo in Title / Description
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected_vs_actual
+    attributes:
+      label: Expected vs Actual Behavior
+      description: Explain what is currently displayed and what the correct information should be based on official records.
+      placeholder: Currently tagged as Round 2, but page 1 indicates this is the Round 1 allotment.
+    validations:
+      required: true
+  - type: input
+    id: proof_link
+    attributes:
+      label: Reference / Verification Link
+      placeholder: Official notification or portal URL confirming this correction.
