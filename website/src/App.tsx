@@ -21,8 +21,13 @@ export function App() {
   // Sync route with URL hash on load and hashchange
   useEffect(() => {
     const handleHashChange = () => {
-      const hash = window.location.hash.replace(/^#\/?/, '').trim();
-      setCurrentRoute(hash);
+      const rawHash = window.location.hash.replace(/^#\/?/, '').trim();
+      // Ignore pure in-page anchor jumps like "main-content"
+      if (rawHash === 'main-content') return;
+
+      // Isolate the route path before any secondary anchor fragments
+      const [routePath] = rawHash.split('#');
+      setCurrentRoute(routePath);
       window.scrollTo(0, 0);
     };
 
@@ -155,6 +160,14 @@ export function App() {
       {/* Keyboard Accessibility Skip Link */}
       <a
         href="#main-content"
+        onClick={(e) => {
+          e.preventDefault();
+          const main = document.getElementById('main-content');
+          if (main) {
+            main.focus();
+            main.scrollIntoView({ behavior: 'smooth' });
+          }
+        }}
         className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-[#4c3f6b] focus:text-white focus:font-bold focus:rounded focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-white"
       >
         Skip to main content

@@ -156,6 +156,7 @@ Create a production-grade, reproducible document discovery and hosting platform 
 
 ## Next Direction
 - Comprehensive Production-Readiness and Privacy Leak Audit is COMPLETE and PASSED with zero blocking findings (`production_readiness_and_privacy_audit.md`).
-- Implementation plan persisted at `/home/drover/Projects/NEET UG 2026/implementation_plan.md` with all 29 phases intact and added to `.gitignore`.
+- Phase 31 COMPLETE: Sitemap quick links navigate directly to individual jurisdiction profile pages (`#/jurisdiction/<slug>`); skip link protected from hash route reset. Verified in Playwright.
+- Implementation plan persisted at `/home/drover/Projects/NEET UG 2026/implementation_plan.md` with all 31 phases intact and added to `.gitignore`.
 - Universal Knowledge Item `append_implementation_plan_standard` active in `<appDataDir>/knowledge/` across all workspaces.
-- Standing by on local `antigravity-dev` branch awaiting user instructions for remote release or deployment.
+- Standing by on local `antigravity-dev` branch awaiting user instructions.

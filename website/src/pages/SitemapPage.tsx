@@ -289,9 +289,19 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ catalog, navigate, onP
 
       {/* Quick Jump Bar */}
       <nav aria-label="Sitemap Quick Navigation" className="bg-[#f0ecf6]/60 dark:bg-[#201c2c] border border-slate-200 dark:border-[#38314a] rounded px-3 py-2 flex flex-wrap items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
-        <span className="font-semibold text-slate-800 dark:text-slate-200">Quick Jump:</span>
+        <span className="font-semibold text-slate-800 dark:text-slate-200">Quick Links:</span>
         {allIndiaGroup.length > 0 && (
-          <a href="#sitemap-all-india" className="hover:text-[#4c3f6b] dark:hover:text-[#bcaee0] underline">All India ({allIndiaGroup[0].docs.length})</a>
+          <a
+            href={`#/jurisdiction/${allIndiaGroup[0].jurisdiction.slug}`}
+            onClick={(e) => {
+              e.preventDefault();
+              navigate(`jurisdiction/${allIndiaGroup[0].jurisdiction.slug}`);
+            }}
+            className="hover:text-[#4c3f6b] dark:hover:text-[#bcaee0] underline font-medium"
+            title="Open All India profile page"
+          >
+            All India ({allIndiaGroup[0].docs.length})
+          </a>
         )}
         <span>&bull;</span>
         <span className="font-medium">States:</span>
@@ -299,8 +309,13 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ catalog, navigate, onP
           {statesGroup.map(s => (
             <a
               key={s.jurisdiction.slug}
-              href={`#sitemap-${s.jurisdiction.slug}`}
+              href={`#/jurisdiction/${s.jurisdiction.slug}`}
+              onClick={(e) => {
+                e.preventDefault();
+                navigate(`jurisdiction/${s.jurisdiction.slug}`);
+              }}
               className="hover:text-[#4c3f6b] dark:hover:text-[#bcaee0] text-[11px] underline"
+              title={`Open ${s.jurisdiction.name} profile page`}
             >
               {s.jurisdiction.name}
             </a>
@@ -312,8 +327,13 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ catalog, navigate, onP
           {utsGroup.map(u => (
             <a
               key={u.jurisdiction.slug}
-              href={`#sitemap-${u.jurisdiction.slug}`}
+              href={`#/jurisdiction/${u.jurisdiction.slug}`}
+              onClick={(e) => {
+                e.preventDefault();
+                navigate(`jurisdiction/${u.jurisdiction.slug}`);
+              }}
               className="hover:text-[#4c3f6b] dark:hover:text-[#bcaee0] text-[11px] underline"
+              title={`Open ${u.jurisdiction.name} profile page`}
             >
               {u.jurisdiction.name}
             </a>
