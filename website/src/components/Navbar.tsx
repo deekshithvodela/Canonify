@@ -29,7 +29,9 @@ export const Navbar: React.FC<NavbarProps> = ({ catalog, currentRoute, navigate 
         setFontScale(savedScale);
         document.documentElement.setAttribute('data-font-scale', savedScale);
       }
-    } catch (e) {}
+    } catch {
+      // Storage unavailable or disabled
+    }
   }, []);
 
   // Close menus on Escape key
@@ -44,6 +46,36 @@ export const Navbar: React.FC<NavbarProps> = ({ catalog, currentRoute, navigate 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
+
+  // History back-swipe trapping for mobile menu and search drawers
+  const isPopstateNavClosingRef = useRef<boolean>(false);
+
+  useEffect(() => {
+    if (!isMobileMenuOpen && !isMobileSearchOpen) return;
+
+    isPopstateNavClosingRef.current = false;
+    const historyState = {
+      navDrawer: isMobileMenuOpen ? 'menu' : 'search',
+      timestamp: Date.now(),
+    };
+    window.history.pushState(historyState, '', window.location.href);
+
+    const handlePopState = () => {
+      isPopstateNavClosingRef.current = true;
+      setIsMobileMenuOpen(false);
+      setIsMobileSearchOpen(false);
+      setShowResults(false);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+      if (!isPopstateNavClosingRef.current && window.history.state?.navDrawer) {
+        window.history.back();
+      }
+    };
+  }, [isMobileMenuOpen, isMobileSearchOpen]);
 
   // Autofocus mobile search input when opened
   useEffect(() => {
@@ -65,7 +97,9 @@ export const Navbar: React.FC<NavbarProps> = ({ catalog, currentRoute, navigate 
         document.documentElement.classList.remove('dark');
         localStorage.setItem('canonify-theme', 'light');
       }
-    } catch (e) {}
+    } catch {
+      // Storage unavailable or disabled
+    }
   };
 
   const handleFontScaleChange = (scale: 'decrease' | 'normal' | 'increase') => {
@@ -73,7 +107,9 @@ export const Navbar: React.FC<NavbarProps> = ({ catalog, currentRoute, navigate 
     try {
       document.documentElement.setAttribute('data-font-scale', scale);
       localStorage.setItem('canonify-font-scale', scale);
-    } catch (e) {}
+    } catch {
+      // Storage unavailable or disabled
+    }
   };
 
   const handleNav = (route: string) => {
@@ -498,6 +534,7 @@ export const Navbar: React.FC<NavbarProps> = ({ catalog, currentRoute, navigate 
       {/* Mobile Slide-Down Navigation Drawer (Hamburger Menu) */}
       {isMobileMenuOpen && (
         <div
+          id="mobile-nav-drawer"
           role="navigation"
           aria-label="Mobile Navigation"
           className="md:hidden bg-[#272336] border-t border-[#38314a] px-4 py-3 space-y-1 text-sm shadow-2xl animate-in slide-in-from-top duration-200"

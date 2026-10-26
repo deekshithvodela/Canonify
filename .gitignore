@@ -16,6 +16,7 @@ scratch/
 data/reports/lighthouse-*.json
 .tempmediaStorage/
 implementation_plan.md
+report.md
 
 # OS & Editor files
 .DS_Store

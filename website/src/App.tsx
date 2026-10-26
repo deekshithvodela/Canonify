@@ -39,23 +39,23 @@ export function App() {
   // Dynamic SEO metadata updates based on current route
   useEffect(() => {
     let title = 'Canonify — NEET Counselling Files Directory';
-    let description = 'An archival and discovery index of official seat allotment results, state merit lists, vacancy seat matrices, and counselling schedules collected directly from MCC and state/UT admissions authorities across India.';
+    let description = 'Canonify is an archival and discovery index of official NEET UG counselling seat allotment results, state merit lists, vacancy seat matrices, and counselling schedules collected directly from MCC and 36 State/UT admissions authorities across India.';
 
     if (currentRoute === 'jurisdictions') {
       title = 'Counselling Jurisdictions Directory — Canonify';
-      description = 'Complete directory of NEET UG counselling documents across All India Quota and 36 Indian States and Union Territories.';
+      description = 'Canonify directory of official NEET UG counselling documents across All India Quota and 36 Indian States and Union Territories.';
     } else if (currentRoute === 'authorities') {
       title = 'Official Admissions Authorities Directory — Canonify';
-      description = 'Verified official portals and admissions directorates for MCC and all 36 Indian State and Union Territory counselling committees.';
+      description = 'Canonify directory of verified official portals and admissions directorates for MCC and all 36 Indian State and Union Territory counselling committees.';
     } else if (currentRoute === 'sitemap') {
       title = 'Repository Sitemap & Document Index — Canonify';
-      description = `Hierarchical sitemap indexing all ${catalog.metadata.totalDocuments} official NEET UG counselling files grouped by state, category, and round.`;
+      description = `Canonify hierarchical sitemap indexing all ${catalog.metadata.totalDocuments} official NEET UG counselling files grouped by state, category, and round.`;
     } else if (currentRoute.startsWith('jurisdiction/')) {
       const slug = currentRoute.replace('jurisdiction/', '').split('/')[0];
       const jur = catalog.jurisdictions.find(j => j.slug === slug);
       if (jur) {
         title = `${jur.name} NEET UG Counselling Documents & Allotments — Canonify`;
-        description = `Official seat allotment results, state rank lists, and seat matrices for ${jur.name} (${jur.authorityName}).`;
+        description = `Official seat allotment results, state rank lists, and seat matrices for ${jur.name} (${jur.authorityName}) indexed by Canonify.`;
       }
     }
 

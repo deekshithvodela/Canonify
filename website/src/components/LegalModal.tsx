@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { X, Shield, FileText, Info, Mail } from 'lucide-react';
 
 export type LegalModalType = 'license' | 'privacy' | 'disclosure' | 'newsletter' | null;
@@ -9,26 +9,67 @@ interface LegalModalProps {
 }
 
 export const LegalModal: React.FC<LegalModalProps> = ({ type, onClose }) => {
+  const isPopstateClosingRef = useRef<boolean>(false);
+
   useEffect(() => {
+    if (!type) return;
+
+    // Reset popstate closing flag on open
+    isPopstateClosingRef.current = false;
+
+    // Push a history entry for the modal so back swipe closes the modal instead of navigating away
+    const historyState = { modal: 'legal-modal', legalType: type, timestamp: Date.now() };
+    window.history.pushState(historyState, '', window.location.href);
+
+    const handlePopState = () => {
+      // User performed a back swipe gesture or clicked browser back button
+      isPopstateClosingRef.current = true;
+      onClose();
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
     };
-    if (type) {
-      window.addEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = 'hidden';
-    }
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    const originalBodyOverflow = document.body.style.overflow;
+    const originalHtmlOverflow = document.documentElement.style.overflow;
+    document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden';
+
     return () => {
+      window.removeEventListener('popstate', handlePopState);
       window.removeEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = '';
+      document.body.style.overflow = originalBodyOverflow;
+      document.documentElement.style.overflow = originalHtmlOverflow;
+
+      // If closed via UI (X button, backdrop tap, Escape) rather than back swipe,
+      // pop the modal history entry to keep history clean and avoid orphan states
+      if (!isPopstateClosingRef.current && window.history.state?.modal === 'legal-modal') {
+        window.history.back();
+      }
     };
   }, [type, onClose]);
 
   if (!type) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm animate-in fade-in duration-150" role="dialog" aria-modal="true">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm animate-in fade-in duration-150 overscroll-contain select-none"
+      style={{ overscrollBehavior: 'contain', overscrollBehaviorX: 'contain' }}
+      role="dialog"
+      aria-modal="true"
+      onClick={onClose}
+      onTouchMove={(e) => {
+        if (e.target === e.currentTarget) e.preventDefault();
+      }}
+    >
       <div
-        className="relative w-full max-w-2xl bg-white dark:bg-[#201c2c] text-slate-800 dark:text-slate-200 rounded-lg shadow-2xl border border-[#e2dde8] dark:border-[#38314a] max-h-[85vh] flex flex-col overflow-hidden"
+        className="relative w-full max-w-2xl bg-white dark:bg-[#201c2c] text-slate-800 dark:text-slate-200 rounded-lg shadow-2xl border border-[#e2dde8] dark:border-[#38314a] max-h-[85vh] flex flex-col overflow-hidden select-text"
+        style={{ overscrollBehavior: 'contain', overscrollBehaviorX: 'contain' }}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}

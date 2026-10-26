@@ -1,5 +1,11 @@
 # Canonify — NEET Counselling Files Directory (2026)
 
+[![Official Live Platform](https://img.shields.io/badge/Live_Platform-Canonify-4c3f6b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://deekshithvodela.github.io/Canonify/)
+[![GitHub License](https://img.shields.io/badge/License-MIT-322e45?style=for-the-badge)](LICENSE)
+[![Documents Archived](https://img.shields.io/badge/Documents-206%20Verified-5e4d84?style=for-the-badge)](https://deekshithvodela.github.io/Canonify/)
+
+> **Official Live Web Platform:** [**https://deekshithvodela.github.io/Canonify/**](https://deekshithvodela.github.io/Canonify/) — Explore official NEET UG counselling documents, seat allotments, and merit lists across MCC and 36 States/UTs.
+
 Canonify is an archival and discovery index of official seat allotment results, state merit lists, vacancy seat matrices, and counselling schedules collected directly from the Medical Counselling Committee (MCC) and state/UT admissions authorities across India.
 
 The platform provides a clean, navigable directory of official counselling documents, inspired by the information architecture and profile layout of MyAnimeList, with an antique/scholar reading palette, dark mode support, and hierarchical sitemap discovery.
